@@ -46,7 +46,6 @@ export class ProductListComponent implements OnInit {
       this.products = products;
       this.filteredProducts = this.products;
     }, error => this.errorMessage = <any>error);
-    
   }
 
   onRatingClicked(message: string): void {
